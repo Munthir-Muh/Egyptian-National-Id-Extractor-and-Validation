@@ -17,7 +17,7 @@ the validation is based on egyption national id segmentation that discribed in t
 
   # INationalIdResourceProvider:
   this interface should be implemented if you want to customize the validation message (change language as an example) and the governorate or 
-  you have this resources in a different proveder like (database or json file..etc).
+  you have this resources in a different provider like (database or json file..etc).
   
   there is <b>NationalIdResourcesDefaultProvider</b> which is the default implementation that i have create it as an example and to be ready to use.
   
