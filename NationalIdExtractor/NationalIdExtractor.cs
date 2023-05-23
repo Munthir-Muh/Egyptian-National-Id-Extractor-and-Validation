@@ -7,7 +7,7 @@ using NationalIdExtraction.Providers;
 namespace NationalIdExtraction
 {
 
-    public class NationalIdExtractor
+    public sealed class NationalIdExtractor
     {
         private readonly INationalIdResourceProvider _resourceProvider;
         /// <summary>
