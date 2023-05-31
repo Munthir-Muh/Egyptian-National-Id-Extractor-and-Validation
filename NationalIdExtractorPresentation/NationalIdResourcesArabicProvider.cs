@@ -10,7 +10,7 @@ namespace NationalIdExtractorPresentation
 {
     internal class NationalIdResourcesArabicProvider : INationalIdResourceProvider
     {
-        private static readonly Dictionary<int, string> _governorates = new Dictionary<int, string>()
+        private static readonly Dictionary<int, string> _governorates = new ()
         {
              {1, "القاهرة"},
              {2, "الإسكندرية"},
